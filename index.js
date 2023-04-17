@@ -11,7 +11,8 @@ require("dotenv").config();
 const cookieParser=require("cookie-parser");
 
 
-const PORT =proceess.env.PORT || 6010
+const PORT=proceess.env.PORT || 6010
+
 const corsOptions = {
   origin: "http://localhost:3000",
   credentials: true, //access-control-allow-credentials:tru
